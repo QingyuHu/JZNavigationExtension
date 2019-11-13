@@ -8,6 +8,8 @@
 #import <UIKit/UIKit.h>
 #import <objc/runtime.h>
 
+#define jz_getProperty(objc,key) [objc valueForKey:key]
+
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored"-Wnullability-completeness"
 

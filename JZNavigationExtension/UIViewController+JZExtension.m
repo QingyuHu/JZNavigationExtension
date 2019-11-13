@@ -79,7 +79,6 @@
     if (jz_navigationBarBackgroundAlpha) {
         return [jz_navigationBarBackgroundAlpha jz_CGFloatValue];
     }
-
     return navigationController.navigationBar.jz_backgroundView.alpha;
     
 }
